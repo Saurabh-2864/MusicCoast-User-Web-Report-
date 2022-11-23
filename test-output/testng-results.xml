@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-23T17:48:54 IST" name="Default suite" finished-at="2022-11-23T17:50:25 IST" duration-ms="90773">
+    <groups>
+      <group name="Login">
+        <method signature="Alloutput.EnterUrl()[pri:1, instance:com.musiccoast.testng.Alloutput@4659191b]" name="EnterUrl" class="com.musiccoast.testng.Alloutput"/>
+        <method signature="Alloutput.ClickOnUser()[pri:2, instance:com.musiccoast.testng.Alloutput@4659191b]" name="ClickOnUser" class="com.musiccoast.testng.Alloutput"/>
+        <method signature="Alloutput.MobilenumberAdded()[pri:3, instance:com.musiccoast.testng.Alloutput@4659191b]" name="MobilenumberAdded" class="com.musiccoast.testng.Alloutput"/>
+        <method signature="Alloutput.clickonContinue()[pri:4, instance:com.musiccoast.testng.Alloutput@4659191b]" name="clickonContinue" class="com.musiccoast.testng.Alloutput"/>
+      </group> <!-- Login -->
+    </groups>
+    <test started-at="2022-11-23T17:48:54 IST" name="Default test" finished-at="2022-11-23T17:50:25 IST" duration-ms="90773">
+      <class name="com.musiccoast.testng.Alloutput">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:48:55 IST" name="setup" finished-at="2022-11-23T17:49:08 IST" duration-ms="13205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnterUrl()[pri:1, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:49:08 IST" name="EnterUrl" finished-at="2022-11-23T17:49:13 IST" duration-ms="5022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterUrl -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:49:13 IST" name="teardown" finished-at="2022-11-23T17:49:13 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:49:13 IST" name="setup" finished-at="2022-11-23T17:49:23 IST" duration-ms="9983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickOnUser()[pri:2, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:49:23 IST" name="ClickOnUser" finished-at="2022-11-23T17:49:29 IST" duration-ms="5925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnUser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:49:29 IST" name="teardown" finished-at="2022-11-23T17:49:29 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:49:29 IST" name="setup" finished-at="2022-11-23T17:49:39 IST" duration-ms="9930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="MobilenumberAdded()[pri:3, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:49:39 IST" name="MobilenumberAdded" finished-at="2022-11-23T17:49:55 IST" duration-ms="16237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilenumberAdded -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:49:55 IST" name="teardown" finished-at="2022-11-23T17:49:56 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:49:56 IST" name="setup" finished-at="2022-11-23T17:50:06 IST" duration-ms="9846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonContinue()[pri:4, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:50:06 IST" name="clickonContinue" finished-at="2022-11-23T17:50:25 IST" duration-ms="19331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonContinue -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musiccoast.testng.Alloutput@4659191b]" started-at="2022-11-23T17:50:25 IST" name="teardown" finished-at="2022-11-23T17:50:25 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.musiccoast.testng.Alloutput -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
