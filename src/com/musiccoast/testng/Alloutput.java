@@ -23,7 +23,7 @@ import org.openqa.selenium.By;
 			
 		}
 		
-		@Test(priority=1,groups="Login")
+		@Test   (priority=1,groups="Login")    //(dependsOnMethods="setup")   
 		
 		public void EnterUrl() throws Exception{
 			
@@ -31,7 +31,8 @@ import org.openqa.selenium.By;
 			Thread.sleep(5000);
 		}
 		
-		@Test(priority=2,groups="Login")
+		@Test  (priority=2,groups="Login")                   //(dependsOnMethods="setup")                    
+		
 		
 		public void ClickOnUser() throws Exception{
 			
@@ -42,7 +43,8 @@ import org.openqa.selenium.By;
 		}
 			
 		
-		@Test (priority=3,groups="Login")
+		@Test  (priority=3,groups="Login")
+                    // (dependsOnMethods="setup")                     
 		
 		public void MobilenumberAdded() throws Exception{
 			
@@ -56,7 +58,8 @@ import org.openqa.selenium.By;
 		
 		}
 		
-		@Test (priority=4,groups="Login")
+		@Test (priority=4,groups="Login")         //(dependsOnMethods="setup")                    
+		
 		
 		public void clickonContinue () throws Exception {
 			
@@ -74,6 +77,18 @@ import org.openqa.selenium.By;
 		Thread.sleep(3000);
 		}
 		
+		@Test (priority=5,groups="Artist")
+		
+		public void ClickonArtist() throws Exception{
+			driver.findElement(By.xpath("//*[@id=\"left\"]/a/img")).click();
+			Thread.sleep(3000);
+		}
+		
+		@Test(priority=6,groups="Artist")
+		public void ClickonTextbox()throws Exception{
+			driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div/form/div[2]/div/input")).click();
+			Thread.sleep(3000);
+		}
 		
 		
 	  @AfterMethod
